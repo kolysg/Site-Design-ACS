@@ -1,0 +1,12 @@
+#header_container {
+background: none #fff;
+}
+#header_login li a {
+    color: #000 !important;
+}
+#header_outer .hostmeeting, #header_outer .rr {
+   color: #000 !important;
+}
+.signupfree{
+display: none;
+}
