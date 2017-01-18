@@ -22,11 +22,6 @@
 
 }
 
-
-/**
- * Position icons into circle (SO)
- * http://stackoverflow.com/q/12813573/1397351 
- */
 .circle-container {
 	position: relative;
 	width: 24em;
