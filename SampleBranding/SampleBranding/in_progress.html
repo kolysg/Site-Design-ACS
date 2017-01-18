@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- Bootstrap framework -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<title> Zoom Landing Page</title>
+	<!-- Load the page styles. -->
+	
+<style>
+.container-fluid {
+	line-height: 1.4em;
+        padding:0;
+}
+
+.company_name {
+	float: left;
+	width: 200px;
+	height: auto;
+	padding: 10px;
+    margin-top: 0px;
+}
+
+.logo_img {
+	padding: 20px;
+	margin: 0 auto;
+}
+
+a {
+    color: #2d8cff;
+    text-decoration: none;
+}
+
+#top-bar {
+    background: #39394d;
+    height: 70px;
+
+}
+
+.circle-container {
+	position: relative;
+	width: 24em;
+	height: 24em;
+	padding: 2em; 
+	border: dashed 0px;
+	border-radius: 50%;
+	margin: 1.5em auto 0;
+    margin-bottom: 80px;
+}
+
+.circle-container a {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 50%; left: 50%;
+	width: 7em; height: 7em;
+	margin: -1em; 
+    border-radius: 50%;
+    inner-border: 10px solid red;
+}
+
+div#circle-right {
+    height: 150px;
+    width: 150px;
+    background-color: #ff3c41;
+}
+
+div#header_login {
+    text-align: right;
+    padding: 20px;
+    margin-right: 20px;
+    padding-left: 40px;
+    margin-left: 100px;
+    font-weight: 600px;
+   color: #2d8cff;
+}
+
+.btn-primary {
+    background-color: #5e5e5d;
+    border-color: #5e5e5d;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.circle-container img { display: block; height: 100%; }
+.deg0 { transform: translate(12em);} /* 12em = half the width of the wrapper */
+.deg45 { transform: rotate(45deg) translate(12em) rotate(-45deg); }
+.deg135 { transform: rotate(135deg) translate(12em) rotate(-135deg); }
+.deg180 { transform: translate(-12em); }
+.deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
+.deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
+
+
+.footer {
+	font-size: 10px;
+    background: #39394d;
+    height: 80px;
+}
+
+div#description {
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+div .wrapper {
+   margin-left: -100px;
+   margin-bottom: 40px;
+
+}
+@media (min-width: 992px)
+    #description {
+        margin-top: 80px;
+        text-align: center;
+}
+
+
+</style>
+
+
+</head>
+
+<!--<body class = 'main_container'>-->
+
+
+    <div class = 'row'  id = 'top-bar'>
+        <div id="header_login">
+               <!--<img src="/account/branding/p/be195407-7901-42da-8df3-03095622d824.png" class="company_name">-->
+		<!-- <ul> -->
+			<ul class="signin"><a class="link" href="/signin">SIGN IN</a></ul>
+		<!-- </ul> -->
+        </div>
+    </div>
+    
+    <div class = 'row'>
+        <header>
+        <!-- Image for company-name -->
+        <img src = '/account/branding/p/be195407-7901-42da-8df3-03095622d824.png' class = "company_name">
+        </header>
+    </div>
+    
+
+    <div class = 'row' id = "description">
+        <p>
+<!--        <div class = 'col-xs-4'>-->
+            AccountingSuite uses Zoom for online meetings, support, training and getting started activities. Use the links below to join a meeting. </br>
+            Have a Zoom Meeting ID? <a href = ""> Join now! </a> </br>
+            Know who you are meeting? Click the name below and you'll be instantly joined.
+<!--        </div>-->
+        </p>
+    </div>
+    
+    <div class = 'row'>
+       <div class = "wrapper">
+        <div class='circle-container'>
+            <a href='#' class='center'><img src='/account/branding/p/a3742c01-5a36-4a6e-9e4a-f93afea784b8.png'></a>
+            <a href='#' class='deg0'><img src='/account/branding/p/756aedf2-a675-499d-b6b6-ef7e5bbb168c.png'></a>
+            <a href='#' class='deg45'><img src='/account/branding/p/7ca505cd-73bf-4bc6-97c5-1f9213364a89.png'></a>
+            <a href='#' class='deg135'><img src='/account/branding/p/756aedf2-a675-499d-b6b6-ef7e5bbb168c.png'></a>
+            <a href='#' class='deg180'><img src='/account/branding/p/431cf64d-e60b-49a9-9f3d-84e569f89977.png'></a>
+            <a href='#' class='deg225'><img src='/account/branding/p/8436e8b0-8b60-423f-853c-b1024c0338a3.png'></a>
+            <a href='#' class='deg315'><img src='/account/branding/p/7afbd7f5-04cc-449e-afc5-58660744f175.png'></a>
+        </div>
+   </div>
+        
+    <div class = 'row' style='text-align:center'>
+        <button type="button" class="btn btn-primary">Test Audio
+            <img src = '/account/branding/p/062af936-d456-4aa1-9e52-8bb4100f1e1d.png' style = 'height:30px; width:auto; text-align:center' >
+        </button> 
+    <div>
+
+    </div>
+   
+    <footer class="footer">
+        <div class = "container">
+            
+        </div>
+        
+    </footer>
+
+    <!-- Pop Over -->
+
+    <script type="text/javascript"></script>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+</div>
+</html>
